@@ -168,7 +168,7 @@ p {
         background-image: url(images/bg-desktop.png);
         background-repeat: no-repeat;
         background-position: bottom;
-        background-size: auto;
+        background-size: contain;
     }
     main {
         flex-direction: row;
