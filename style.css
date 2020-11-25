@@ -69,11 +69,18 @@ header>img {
 .icon {
     width: 100%;
     height: 100%;
+    cursor: pointer;
     background-color: var(--clr-verydarkblue);
     border-radius: 10px;
+    border: 2px solid var(--clr-verydarkblue);
     display: grid;
     align-items: center;
     justify-content: center;
+    transition: 250ms ease-out;
+}
+
+.icon:hover {
+    border-color: white;
 }
 
 .stats {
