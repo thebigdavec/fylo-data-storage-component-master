@@ -40,7 +40,7 @@ main {
 }
 
 header,
-section {
+.stats {
     width: 100%;
     background-color: var(--clr-darkblue);
     padding: 2.25rem;
@@ -76,7 +76,7 @@ header>img {
     justify-content: center;
 }
 
-section {
+.stats {
     position: relative;
     max-width: 350px;
     padding-bottom: 5rem;
@@ -168,10 +168,10 @@ p {
         align-items: flex-end;
     }
     header,
-    section {
+    .stats {
         margin-bottom: 0;
     }
-    section {
+    .stats {
         max-width: 540px;
         margin-left: 2rem;
         padding-top: 2.25rem;
